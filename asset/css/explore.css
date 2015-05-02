@@ -1,0 +1,22 @@
+.explore{
+	background: #fff;
+	padding: 8px;
+	height: 100%;
+}
+.explore .title{
+	margin-bottom: 6px;
+}
+.explore .title .url{
+	height: 24px;
+  	width: 400px;
+  	line-height: 24px;
+  	font-size: 15px;
+}
+.explore .content{
+	height: calc(100% - 50px);
+	border-top: 1px solid #ccc;
+}
+.explore .content iframe{
+	height: 100%;
+	width: 100%;
+}

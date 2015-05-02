@@ -1,0 +1,53 @@
+.modal{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	left: 300px;
+	border: 1px solid #e3e3e3;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+	display: none;
+}
+.modal .modal_title{
+	background: #eee;
+  	padding: 8px 6px;
+  	cursor: default;
+  	opacity: 0.9;
+}
+.active{
+	z-index: 2;
+}
+.active .modal_title{
+	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#fefefe));
+	background: -moz-gradient(linear, left top, left bottom, from(#efefef), to(#fefefe));
+	background: -o-gradient(linear, left top, left bottom, from(#efefef), to(#fefefe));
+	background: gradient(linear, left top, left bottom, from(#efefef), to(#fefefe));
+}
+.modal .modal_title:active{
+	cursor: move;
+}
+.modal .modal_title span{
+	display: inline-block;
+  	width: 17px;
+  	height: 17px;
+  	text-align: center;
+  	line-height: 15px;
+  	border-radius: 8px;
+  	cursor: pointer;
+  	margin-right: 8px;
+  	background: #CDC5BF;
+}
+.modal .modal_title .close:hover{
+	background: #FF7F50;
+}
+.modal .modal_title .tomin:hover{
+	background: #C5C1AA;
+}
+.modal .modal_title .tomax:hover{
+	background: #00CD00;
+}
+.modal .modal_content{
+	height: calc(100% - 51px);
+}

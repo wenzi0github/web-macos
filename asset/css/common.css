@@ -1,0 +1,81 @@
+body{background: #000 url(../images/galaxy.jpg) center top no-repeat;}
+.global_header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #ffffee;
+	opacity: 0.9;
+	box-shadow: 0 0px 3px 3px #a3a3a3;
+	z-index: 100;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+}
+.global_header .header_content{
+	margin: 0 24px;
+}
+.global_header .file_menu, .global_header .file_menu .title, .global_header .file_menu .content, .global_header .file_menu li{
+	float: left;
+}
+.global_header .system_menu{
+	float: right;
+}
+.global_header a{
+	color: #000;
+	text-decoration: none;
+}
+.global_header .file_menu .title{
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 24px;
+}
+.global_header .content li{
+	margin-right: 14px;
+}
+
+.global_docker{
+	position: fixed;
+    bottom: 0;
+    width: 1000px;
+    height: 68px;
+    background-color: rgba(204,204,204, 0.7);
+    left: 50%;
+    margin-left: -500px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    z-index: 99;
+}
+.global_docker li{
+	float: left;
+	margin: 10px;
+}
+.global_docker a{
+	display: block;
+	width: 50px;
+	height: 50px;
+    /*-webkit-transition: transform 0.2s linear;
+    -moz-transition: transform 0.2s linear;
+    -o-transition: transform 0.2s linear;
+    transition: transform 0.2s linear;*/
+}
+/*.global_docker a:hover{
+	-webkit-transform:translateY(-20px);
+	-moz-transform:translateY(-20px);
+	-o-transform:translateY(-20px);
+	transform:translateY(-20px);
+}*/
+.global_docker .reminders{
+	background: url(../images/reminders.png) 0 0 no-repeat;
+	background-size: 50px 50px;
+}
+.global_docker .chrome{
+	background: url(../images/chrome.png) 0 0 no-repeat;
+	background-size: 50px 50px;
+}
+.global_content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
